@@ -1,0 +1,1028 @@
+{
+	"destination": "detailScreen",
+	"shared": true,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onLosingFocus",
+		"onGettingFocus",
+		"onUnload",
+		"onTimer"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 85,
+					"left": 12,
+					"width": 410,
+					"height": 200,
+					"visibility": "hidden",
+					"fill": "#DDE6F2",
+					"stroke": "transparent",
+					"strokeWidth": 0.1
+				},
+				"T_currentObjectsList": {
+					"type": "listbox",
+					"top": 94,
+					"left": 21,
+					"width": 106,
+					"height": 21,
+					"visibility": "hidden",
+					"resizingMode": "legacy",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"columns": [
+						{
+							"name": "T_currentObjects",
+							"width": 191,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"resizable": false,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 10,
+							"header": {
+								"name": "CanvasCurrentObjectsHeader",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							},
+							"footer": {
+								"name": "Pied1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							}
+						}
+					]
+				},
+				"LB_polylineHandles": {
+					"type": "listbox",
+					"top": 163,
+					"left": 21,
+					"width": 299,
+					"height": 43,
+					"visibility": "hidden",
+					"resizingMode": "legacy",
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"columns": [
+						{
+							"name": "T_polylineHandles",
+							"width": 100,
+							"minWidth": 100,
+							"maxWidth": 32000,
+							"resizable": false,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 10,
+							"header": {
+								"name": "CanvasPolylineHandlesHeader",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							},
+							"footer": {
+								"name": "Pied8",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							}
+						},
+						{
+							"name": "T_polylinePointX",
+							"dataSourceTypeHint": "number",
+							"width": 100,
+							"minWidth": 100,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 10,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "CanvasPolylinePointXHeader",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							},
+							"footer": {
+								"name": "Pied9",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							}
+						},
+						{
+							"name": "T_polylinePointY",
+							"dataSourceTypeHint": "number",
+							"width": 100,
+							"minWidth": 100,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 10,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "CanvasPolylinePointYHeader",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							},
+							"footer": {
+								"name": "Pied10",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							}
+						}
+					]
+				},
+				"LB_historyList": {
+					"type": "listbox",
+					"top": 215,
+					"left": 21,
+					"width": 241,
+					"height": 38,
+					"visibility": "hidden",
+					"resizingMode": "legacy",
+					"hideFocusRing": true,
+					"sortable": false,
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 10,
+					"borderStyle": "none",
+					"columns": [
+						{
+							"name": "lb_historyData",
+							"dataSourceTypeHint": "picture",
+							"width": 40,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"resizable": false,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 10,
+							"header": {
+								"name": "lb_historyDataHeader",
+								"text": "D",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							},
+							"footer": {
+								"name": "Pied2",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							}
+						},
+						{
+							"name": "lb_historySelection",
+							"dataSourceTypeHint": "picture",
+							"width": 40,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 10,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "lb_historySelectionHeader",
+								"text": "S",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							},
+							"footer": {
+								"name": "Pied3",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							}
+						},
+						{
+							"name": "lb_historyPolylineHandle",
+							"dataSourceTypeHint": "picture",
+							"width": 40,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 10,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "lb_historyPolylineHandlesH",
+								"text": "PH",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							},
+							"footer": {
+								"name": "Pied4",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							}
+						},
+						{
+							"name": "lb_historyPolylinePointX",
+							"dataSourceTypeHint": "picture",
+							"width": 40,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 10,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "lb_historyPolylinePointXH",
+								"text": "PX",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							},
+							"footer": {
+								"name": "Pied5",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							}
+						},
+						{
+							"name": "lb_historyPolylinePointY",
+							"dataSourceTypeHint": "picture",
+							"width": 40,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 10,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "lb_historyPolylinePointYH",
+								"text": "PY",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							},
+							"footer": {
+								"name": "Pied6",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							}
+						},
+						{
+							"name": "lb_historyPolyline",
+							"width": 41,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#FFFFFF",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 10,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "lb_historyPolylineHeader",
+								"text": "P",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							},
+							"footer": {
+								"name": "Pied7",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 10
+							}
+						}
+					]
+				},
+				"selectAll_btn": {
+					"type": "button",
+					"top": 130,
+					"left": 22,
+					"width": 60,
+					"height": 11,
+					"shortcutKey": "a",
+					"shortcutAccel": true,
+					"fontFamily": "System Font",
+					"fontSize": 8,
+					"stroke": "#808080",
+					"focusable": false,
+					"text": "Select all",
+					"style": "custom",
+					"method": "ObjectMethods/selectAll_btn.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"moveUpStep_btn": {
+					"type": "button",
+					"top": 117,
+					"left": 179,
+					"width": 80,
+					"height": 11,
+					"shortcutKey": "[up arrow]",
+					"shortcutShift": true,
+					"fontFamily": "System Font",
+					"fontSize": 8,
+					"stroke": "#808080",
+					"focusable": false,
+					"text": "Move up step",
+					"textPlacement": "left",
+					"style": "custom",
+					"method": "ObjectMethods/moveUpStep_btn.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"moveUp_btn": {
+					"type": "button",
+					"top": 102,
+					"left": 179,
+					"width": 80,
+					"height": 11,
+					"shortcutKey": "[up arrow]",
+					"fontFamily": "System Font",
+					"fontSize": 8,
+					"stroke": "#808080",
+					"focusable": false,
+					"text": "Move up",
+					"textPlacement": "left",
+					"style": "custom",
+					"method": "ObjectMethods/moveUp_btn.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"moveDownStep_btn": {
+					"type": "button",
+					"top": 149,
+					"left": 179,
+					"width": 80,
+					"height": 11,
+					"shortcutKey": "[down arrow]",
+					"shortcutShift": true,
+					"fontFamily": "System Font",
+					"fontSize": 8,
+					"stroke": "#808080",
+					"focusable": false,
+					"text": "Move down step",
+					"textPlacement": "left",
+					"style": "custom",
+					"method": "ObjectMethods/moveDownStep_btn.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"moveDown_btn": {
+					"type": "button",
+					"top": 136,
+					"left": 179,
+					"width": 80,
+					"height": 11,
+					"shortcutKey": "[down arrow]",
+					"fontFamily": "System Font",
+					"fontSize": 8,
+					"stroke": "#808080",
+					"focusable": false,
+					"text": "Move down",
+					"style": "custom",
+					"method": "ObjectMethods/moveDown_btn.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"moveLeftStep_btn": {
+					"type": "button",
+					"top": 135,
+					"left": 94,
+					"width": 70,
+					"height": 11,
+					"shortcutKey": "[left arrow]",
+					"shortcutShift": true,
+					"fontFamily": "System Font",
+					"fontSize": 8,
+					"stroke": "#808080",
+					"focusable": false,
+					"text": "Move left step",
+					"textPlacement": "left",
+					"style": "custom",
+					"method": "ObjectMethods/moveLeftStep_btn.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"moveLeft_btn": {
+					"type": "button",
+					"top": 120,
+					"left": 94,
+					"width": 70,
+					"height": 11,
+					"shortcutKey": "[left arrow]",
+					"fontFamily": "System Font",
+					"fontSize": 8,
+					"stroke": "#808080",
+					"focusable": false,
+					"text": "Move left",
+					"textPlacement": "left",
+					"style": "custom",
+					"method": "ObjectMethods/moveLeft_btn.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"moveRight_btn": {
+					"type": "button",
+					"top": 118,
+					"left": 279,
+					"width": 70,
+					"height": 11,
+					"shortcutKey": "[right arrow]",
+					"fontFamily": "System Font",
+					"fontSize": 8,
+					"stroke": "#808080",
+					"focusable": false,
+					"text": "Move right",
+					"textPlacement": "left",
+					"style": "custom",
+					"method": "ObjectMethods/moveRight_btn.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"moveRightStep_btn": {
+					"type": "button",
+					"top": 135,
+					"left": 279,
+					"width": 70,
+					"height": 11,
+					"shortcutKey": "[right arrow]",
+					"shortcutShift": true,
+					"fontFamily": "System Font",
+					"fontSize": 8,
+					"stroke": "#808080",
+					"focusable": false,
+					"text": "Move right step",
+					"textPlacement": "left",
+					"style": "custom",
+					"method": "ObjectMethods/moveRightStep_btn.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"copy_btn": {
+					"type": "button",
+					"top": 223,
+					"left": 365,
+					"width": 50,
+					"height": 11,
+					"shortcutKey": "c",
+					"shortcutAccel": true,
+					"fontFamily": "System Font",
+					"fontSize": 8,
+					"stroke": "#808080",
+					"focusable": false,
+					"text": "Copy",
+					"style": "custom",
+					"method": "ObjectMethods/copy_btn.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"paste_btn": {
+					"type": "button",
+					"top": 237,
+					"left": 365,
+					"width": 50,
+					"height": 11,
+					"shortcutKey": "v",
+					"shortcutAccel": true,
+					"fontFamily": "System Font",
+					"fontSize": 8,
+					"stroke": "#808080",
+					"focusable": false,
+					"text": "Paste",
+					"style": "custom",
+					"method": "ObjectMethods/paste_btn.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"cut_btn": {
+					"type": "button",
+					"top": 209,
+					"left": 365,
+					"width": 50,
+					"height": 11,
+					"shortcutKey": "x",
+					"shortcutAccel": true,
+					"fontFamily": "System Font",
+					"fontSize": 8,
+					"stroke": "#808080",
+					"focusable": false,
+					"text": "Cut",
+					"style": "custom",
+					"method": "ObjectMethods/cut_btn.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"undo_btn": {
+					"type": "button",
+					"top": 228,
+					"left": 282,
+					"width": 60,
+					"height": 11,
+					"shortcutKey": "z",
+					"shortcutAccel": true,
+					"fontFamily": "System Font",
+					"fontSize": 8,
+					"stroke": "#808080",
+					"focusable": false,
+					"text": "Undo",
+					"textPlacement": "left",
+					"style": "custom",
+					"method": "ObjectMethods/undo_btn.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"redo_btn": {
+					"type": "button",
+					"top": 245,
+					"left": 282,
+					"width": 60,
+					"height": 11,
+					"shortcutKey": "z",
+					"shortcutAccel": true,
+					"shortcutShift": true,
+					"fontFamily": "System Font",
+					"fontSize": 8,
+					"stroke": "#808080",
+					"focusable": false,
+					"text": "Redo",
+					"textPlacement": "left",
+					"style": "custom",
+					"method": "ObjectMethods/redo_btn.4dm",
+					"events": [
+						"onClick",
+						"onPrintingDetail"
+					]
+				},
+				"delete_btn": {
+					"type": "button",
+					"top": 254,
+					"left": 365,
+					"width": 50,
+					"height": 11,
+					"shortcutKey": "[Del]",
+					"fontFamily": "System Font",
+					"fontSize": 8,
+					"stroke": "#808080",
+					"focusable": false,
+					"text": "Delete",
+					"textPlacement": "left",
+					"style": "custom",
+					"method": "ObjectMethods/delete_btn.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"back_btn": {
+					"type": "button",
+					"top": 269,
+					"left": 365,
+					"width": 50,
+					"height": 11,
+					"shortcutKey": "[Backspace]",
+					"fontFamily": "System Font",
+					"fontSize": 8,
+					"stroke": "#808080",
+					"focusable": false,
+					"text": "back",
+					"textPlacement": "left",
+					"style": "custom",
+					"method": "ObjectMethods/back_btn.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"bkg": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 400,
+					"height": 421,
+					"sizingY": "move",
+					"pictureFormat": "tiled",
+					"picture": "/RESOURCES/bkg/icns_emptyPtn.png"
+				},
+				"wos_text": {
+					"type": "subform",
+					"top": 322,
+					"left": 612,
+					"width": 265,
+					"height": 177,
+					"detailForm": "wos_text",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_text.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_stroke": {
+					"type": "subform",
+					"top": 502,
+					"left": 612,
+					"width": 265,
+					"height": 140,
+					"detailForm": "wos_stroke",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_stroke.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_fill": {
+					"type": "subform",
+					"top": 643,
+					"left": 612,
+					"width": 265,
+					"height": 78,
+					"detailForm": "wos_fill",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_fill.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"canvas": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 601,
+					"height": 681,
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/canvas.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDrop",
+						"onDataChange",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onMouseMove"
+					]
+				},
+				"wos_rotate": {
+					"type": "subform",
+					"top": 259,
+					"left": 612,
+					"width": 265,
+					"height": 60,
+					"detailForm": "wos_rotate",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_rotate.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"TextEditAreaFrame": {
+					"type": "rectangle",
+					"top": 31,
+					"left": 547,
+					"width": 28,
+					"height": 14,
+					"visibility": "hidden",
+					"fill": "transparent",
+					"stroke": "#696969",
+					"strokeDashArray": "1 1"
+				},
+				"TextEditArea": {
+					"type": "input",
+					"top": 33,
+					"left": 550,
+					"width": 22,
+					"height": 8,
+					"fontFamily": "Athelas Bold Italic",
+					"fontSize": 9,
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/TextEditArea.4dm",
+					"events": [
+						"onLosingFocus",
+						"onGettingFocus",
+						"onAfterEdit"
+					]
+				},
+				"wos_actions": {
+					"type": "subform",
+					"top": 128,
+					"left": 612,
+					"width": 168,
+					"height": 60,
+					"detailForm": "wos_actions",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_actions.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_zoom": {
+					"type": "subform",
+					"top": 196,
+					"left": 612,
+					"width": 265,
+					"height": 60,
+					"detailForm": "wos_zoom",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_zoom.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_tools": {
+					"type": "subform",
+					"top": 0,
+					"left": 612,
+					"width": 265,
+					"height": 60,
+					"detailForm": "wos_tools",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_tools.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_edits": {
+					"type": "subform",
+					"top": 64,
+					"left": 612,
+					"width": 200,
+					"height": 60,
+					"detailForm": "wos_edits",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_edits.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				}
+			},
+			"entryOrder": [
+				"wos_text",
+				"wos_stroke",
+				"wos_fill",
+				"wos_rotate",
+				"wos_actions",
+				"wos_zoom",
+				"wos_tools",
+				"wos_edits"
+			]
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"geometryStamp": 1
+}

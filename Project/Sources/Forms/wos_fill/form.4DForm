@@ -1,0 +1,111 @@
+{
+	"destination": "detailScreen",
+	"shared": true,
+	"rightMargin": 2,
+	"bottomMargin": 2,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"grp": {
+					"type": "groupBox",
+					"top": 2,
+					"left": 2,
+					"width": 226,
+					"height": 74,
+					"text": "Fill"
+				},
+				"ot_colour": {
+					"type": "text",
+					"top": 24,
+					"left": 10,
+					"width": 48,
+					"height": 14,
+					"class": "Field_Label",
+					"text": "Colour:"
+				},
+				"ot_opacity": {
+					"type": "text",
+					"top": 45,
+					"left": 10,
+					"width": 48,
+					"height": 14,
+					"class": "Field_Label",
+					"text": "Opacity:"
+				},
+				"opacity_Rlr": {
+					"type": "ruler",
+					"top": 47,
+					"left": 64,
+					"width": 152,
+					"height": 10,
+					"showGraduations": true,
+					"labelsPlacement": "right",
+					"max": 100,
+					"graduationStep": 25,
+					"step": 5,
+					"numberFormat": "### ##0",
+					"focusable": false,
+					"fontFamily": "Lucida Grande",
+					"fontSize": 10,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/pk_opacity"
+					},
+					"method": "ObjectMethods/opacity_Rlr.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"woc_colour": {
+					"type": "subform",
+					"top": 21,
+					"left": 64,
+					"width": 152,
+					"height": 20,
+					"detailForm": "woc_colour",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/woc_colour.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				}
+			},
+			"entryOrder": [
+				"opacity_Rlr",
+				"woc_colour"
+			]
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 3,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

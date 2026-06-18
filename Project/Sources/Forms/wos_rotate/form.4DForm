@@ -1,0 +1,88 @@
+{
+	"destination": "detailScreen",
+	"shared": true,
+	"rightMargin": 2,
+	"bottomMargin": 2,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"grp": {
+					"type": "groupBox",
+					"top": 2,
+					"left": 2,
+					"width": 226,
+					"height": 57,
+					"fontFamily": ".AppleSystemUIFont",
+					"fontSize": 10,
+					"text": "Rotate"
+				},
+				"rotate_Rlr": {
+					"type": "ruler",
+					"top": 24,
+					"left": 54,
+					"width": 162,
+					"height": 10,
+					"showGraduations": true,
+					"labelsPlacement": "right",
+					"max": 360,
+					"graduationStep": 90,
+					"numberFormat": "### ##0",
+					"focusable": false,
+					"fontFamily": "Lucida Grande",
+					"fontSize": 10,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/pk_rotation"
+					},
+					"method": "ObjectMethods/rotate_Rlr.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"canvas": {
+					"type": "input",
+					"top": 20,
+					"left": 10,
+					"width": 32,
+					"height": 32,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/pk_rotation_pop"
+					},
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "proportionalCenter",
+					"dragging": "none",
+					"method": "ObjectMethods/canvas.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			},
+			"entryOrder": [
+				"rotate_Rlr"
+			]
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

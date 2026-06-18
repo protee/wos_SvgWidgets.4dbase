@@ -1,0 +1,190 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onUnload",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"btn_cancel": {
+					"type": "pictureButton",
+					"top": 487,
+					"left": 922,
+					"width": 24,
+					"height": 24,
+					"sizingX": "move",
+					"action": "cancel",
+					"rowCount": 4,
+					"picture": "/RESOURCES/btn/btn_cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"btn_accept": {
+					"type": "pictureButton",
+					"top": 487,
+					"left": 946,
+					"width": 24,
+					"height": 24,
+					"sizingX": "move",
+					"rowCount": 4,
+					"picture": "/RESOURCES/btn/btn_accept.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"tabControl": {
+					"type": "tab",
+					"top": 14,
+					"left": 19,
+					"width": 961,
+					"height": 461,
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"Practice Details",
+						"Miscellaneous",
+						"Practice Letterhead",
+						"Practice Letterhead1",
+						"Images & Attachments",
+						"Clinical",
+						"Carrier Identifiers"
+					],
+					"action": "GotoPage",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		null,
+		null,
+		{
+			"objects": {
+				"Variable": {
+					"type": "input",
+					"top": 72,
+					"left": 748,
+					"width": 197,
+					"height": 17,
+					"sizingX": "move",
+					"dataSource": "Form:C1466.t_fileName",
+					"focusable": false,
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"btn_choose": {
+					"type": "pictureButton",
+					"top": 65,
+					"left": 711,
+					"width": 30,
+					"height": 30,
+					"sizingX": "move",
+					"rowCount": 4,
+					"picture": "/RESOURCES/btn/btn_popup.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"wos_editor": {
+					"type": "subform",
+					"top": 105,
+					"left": 35,
+					"width": 900,
+					"height": 350,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"detailForm": "wos_editor",
+					"scrollbarVertical": "visible",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_editor.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onUnload"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"letterHead": {
+					"type": "input",
+					"top": 77,
+					"left": 40,
+					"width": 907,
+					"height": 375,
+					"dataSourceTypeHint": "picture",
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"dragging": "custom",
+					"method": "ObjectMethods/letterHead.4dm",
+					"events": [
+						"onDoubleClick"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 22,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

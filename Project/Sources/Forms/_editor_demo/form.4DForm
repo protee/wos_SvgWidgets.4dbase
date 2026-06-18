@@ -1,0 +1,259 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 10,
+	"bottomMargin": 10,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onCloseBox",
+		"onUnload",
+		"onTimer",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"wos_editor": {
+					"type": "subform",
+					"top": 43,
+					"left": 10,
+					"width": 911,
+					"height": 608,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"detailForm": "wos_editor",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_editor.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onUnload"
+					]
+				},
+				"btn_menu": {
+					"type": "pictureButton",
+					"top": 10,
+					"left": 10,
+					"width": 30,
+					"height": 30,
+					"rowCount": 4,
+					"picture": "/RESOURCES/btn/btn_shoot.png",
+					"loopBackToFirstFrame": true,
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"is_editing": {
+					"type": "checkbox",
+					"top": 14,
+					"left": 60,
+					"width": 111,
+					"height": 23,
+					"text": "is editable",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"btn_is_modified": {
+					"type": "button",
+					"top": 663,
+					"left": 376,
+					"width": 135,
+					"height": 27,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "Modified?",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"is_toolsOnTop": {
+					"type": "checkbox",
+					"top": 14,
+					"left": 190,
+					"width": 121,
+					"height": 23,
+					"text": "is tools on top",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"is_palettes": {
+					"type": "checkbox",
+					"top": 14,
+					"left": 320,
+					"width": 91,
+					"height": 23,
+					"text": "is palettes",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"is_sticky": {
+					"type": "checkbox",
+					"top": 14,
+					"left": 730,
+					"width": 71,
+					"height": 23,
+					"text": "is sticky",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"btn_clear": {
+					"type": "button",
+					"top": 663,
+					"left": 297,
+					"width": 65,
+					"height": 27,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "Clear",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"btn_canvas": {
+					"type": "button",
+					"top": 663,
+					"left": 15,
+					"width": 75,
+					"height": 27,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "Canvas",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"btn_wh_mini": {
+					"type": "button",
+					"top": 663,
+					"left": 100,
+					"width": 85,
+					"height": 27,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "WH mini",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"btn_wh_resize": {
+					"type": "button",
+					"top": 663,
+					"left": 199,
+					"width": 85,
+					"height": 27,
+					"sizingX": "move",
+					"sizingY": "move",
+					"text": "WH resize",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"is_palettesOnTop": {
+					"type": "checkbox",
+					"top": 14,
+					"left": 420,
+					"width": 141,
+					"height": 23,
+					"text": "is palettes on top",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"is_visibility": {
+					"type": "checkbox",
+					"top": 14,
+					"left": 560,
+					"width": 141,
+					"height": 23,
+					"text": "is palettes visibility",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"btn_cancel": {
+					"type": "pictureButton",
+					"top": 663,
+					"left": 873,
+					"width": 24,
+					"height": 24,
+					"sizingX": "move",
+					"action": "",
+					"rowCount": 4,
+					"picture": "/RESOURCES/btn/btn_cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					],
+					"sizingY": "move"
+				},
+				"btn_accept": {
+					"type": "pictureButton",
+					"top": 663,
+					"left": 897,
+					"width": 24,
+					"height": 24,
+					"sizingX": "move",
+					"rowCount": 4,
+					"picture": "/RESOURCES/btn/btn_accept.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					],
+					"sizingY": "move"
+				}
+			}
+		}
+	],
+	"geometryStamp": 71,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

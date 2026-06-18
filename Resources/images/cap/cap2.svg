@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+
+<defs id="4D">
+</defs>
+<line x1="8" y1="16" x2="24" y2="16" stroke="black" stroke-linecap="square" stroke-width="10" />
+<path d="M8,16 h16" stroke="pink" stroke-width="1" />
+</svg>

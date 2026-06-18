@@ -1,0 +1,751 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 10,
+	"bottomMargin": 10,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"HM_StrokeWidth_Lbl": {
+					"type": "text",
+					"top": 25,
+					"left": 14,
+					"width": 50,
+					"height": 14,
+					"sizingY": "move",
+					"class": "Field_Label",
+					"text": "Width:"
+				},
+				"wos_widthPicker": {
+					"type": "subform",
+					"top": 16,
+					"left": 70,
+					"width": 110,
+					"height": 32,
+					"sizingY": "move",
+					"detailForm": "wos_width",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_widthPicker.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"HM_widthPicker_Lbl3": {
+					"type": "text",
+					"top": 51,
+					"left": 70,
+					"width": 120,
+					"height": 14,
+					"sizingY": "move",
+					"fontFamily": "Police système",
+					"fontSize": 11,
+					"fontStyle": "italic",
+					"text": "wos_widthPicker"
+				},
+				"wos_markerPicker": {
+					"type": "subform",
+					"top": 16,
+					"left": 255,
+					"width": 42,
+					"height": 32,
+					"sizingY": "move",
+					"detailForm": "wos_marker",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_markerPicker.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"HM_StrokeWidth_Lbl1": {
+					"type": "text",
+					"top": 25,
+					"left": 200,
+					"width": 50,
+					"height": 14,
+					"sizingY": "move",
+					"class": "Field_Label",
+					"text": "Marker:"
+				},
+				"HM_fontPicker_Lbl2": {
+					"type": "text",
+					"top": 51,
+					"left": 245,
+					"width": 120,
+					"height": 14,
+					"sizingY": "move",
+					"fontFamily": "Police système",
+					"fontSize": 11,
+					"fontStyle": "italic",
+					"text": "wos_markerPicker"
+				},
+				"HM_StrokeWidth_Lbl2": {
+					"type": "text",
+					"top": 85,
+					"left": 14,
+					"width": 50,
+					"height": 14,
+					"sizingY": "move",
+					"class": "Field_Label",
+					"text": "Dash:"
+				},
+				"wos_dashPicker": {
+					"type": "subform",
+					"top": 76,
+					"left": 70,
+					"width": 110,
+					"height": 32,
+					"sizingY": "move",
+					"detailForm": "wos_dash",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_dashPicker.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"HM_dashPicker_Lbl": {
+					"type": "text",
+					"top": 111,
+					"left": 70,
+					"width": 120,
+					"height": 14,
+					"sizingY": "move",
+					"fontFamily": "Police système",
+					"fontSize": 11,
+					"fontStyle": "italic",
+					"text": "wos_dashPicker"
+				},
+				"wos_joinPicker": {
+					"type": "subform",
+					"top": 76,
+					"left": 255,
+					"width": 42,
+					"height": 32,
+					"sizingY": "move",
+					"detailForm": "wos_join",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_joinPicker.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"HM_cap_Lbl1": {
+					"type": "text",
+					"top": 85,
+					"left": 200,
+					"width": 50,
+					"height": 14,
+					"sizingY": "move",
+					"class": "Field_Label",
+					"text": "Join:"
+				},
+				"HM_dashPicker_Lbl1": {
+					"type": "text",
+					"top": 111,
+					"left": 245,
+					"width": 120,
+					"height": 14,
+					"sizingY": "move",
+					"fontFamily": "Police système",
+					"fontSize": 11,
+					"fontStyle": "italic",
+					"text": "wos_joinPicker"
+				},
+				"wos_capPicker": {
+					"type": "subform",
+					"top": 136,
+					"left": 255,
+					"width": 42,
+					"height": 32,
+					"sizingY": "move",
+					"detailForm": "wos_cap",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_capPicker.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"HM_Cap_Lbl": {
+					"type": "text",
+					"top": 145,
+					"left": 200,
+					"width": 50,
+					"height": 14,
+					"sizingY": "move",
+					"class": "Field_Label",
+					"text": "Cap:"
+				},
+				"HM_dashPicker_Lbl2": {
+					"type": "text",
+					"top": 171,
+					"left": 245,
+					"width": 120,
+					"height": 14,
+					"sizingY": "move",
+					"fontFamily": "Police système",
+					"fontSize": 11,
+					"fontStyle": "italic",
+					"text": "wos_capPicker"
+				},
+				"wos_tools_r": {
+					"type": "subform",
+					"top": 16,
+					"left": 380,
+					"width": 264,
+					"height": 62,
+					"detailForm": "wos_tools",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_tools_r.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"ot_tool": {
+					"type": "input",
+					"top": 83,
+					"left": 509,
+					"width": 135,
+					"height": 12,
+					"fontFamily": ".AppleSystemUIFont",
+					"fontSize": 10,
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/ot_tool.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"wos_actions_r": {
+					"type": "subform",
+					"top": 109,
+					"left": 380,
+					"width": 264,
+					"height": 62,
+					"detailForm": "wos_actions",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_actions_r.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"ot_action": {
+					"type": "input",
+					"top": 176,
+					"left": 509,
+					"width": 135,
+					"height": 12,
+					"fontFamily": ".AppleSystemUIFont",
+					"fontSize": 10,
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/ot_action.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"wos_tools_r1": {
+					"type": "subform",
+					"top": 16,
+					"left": 656,
+					"width": 140,
+					"height": 92,
+					"detailForm": "wos_tools",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_tools_r1.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_actions_r1": {
+					"type": "subform",
+					"top": 119,
+					"left": 656,
+					"width": 109,
+					"height": 92,
+					"detailForm": "wos_actions",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_actions_r1.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_edits": {
+					"type": "subform",
+					"top": 16,
+					"left": 816,
+					"width": 200,
+					"height": 60,
+					"detailForm": "wos_edits",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_edits.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"ot_edit": {
+					"type": "input",
+					"top": 83,
+					"left": 881,
+					"width": 135,
+					"height": 12,
+					"fontFamily": ".AppleSystemUIFont",
+					"fontSize": 10,
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/ot_edit.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"wos_rotate": {
+					"type": "subform",
+					"top": 267,
+					"left": 14,
+					"width": 192,
+					"height": 52,
+					"sizingY": "move",
+					"detailForm": "wos_rotate",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_rotate.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_rotate1": {
+					"type": "subform",
+					"top": 327,
+					"left": 14,
+					"width": 292,
+					"height": 72,
+					"sizingY": "move",
+					"detailForm": "wos_rotate",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_rotate1.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"HM_strokePicker_Lbl1": {
+					"type": "text",
+					"top": 402,
+					"left": 14,
+					"width": 120,
+					"height": 14,
+					"sizingY": "move",
+					"fontFamily": "Police système",
+					"fontSize": 11,
+					"fontStyle": "italic",
+					"text": "wos_rotatePicker"
+				},
+				"wos_zoom_r": {
+					"type": "subform",
+					"top": 436,
+					"left": 14,
+					"width": 264,
+					"height": 62,
+					"detailForm": "wos_zoom",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_zoom_r.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_zoom": {
+					"type": "subform",
+					"top": 208,
+					"left": 380,
+					"width": 234,
+					"height": 52,
+					"detailForm": "wos_ruler",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_zoom.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_rotate2": {
+					"type": "subform",
+					"top": 271,
+					"left": 380,
+					"width": 234,
+					"height": 43,
+					"detailForm": "wos_ruler",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_rotate2.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_zoom1": {
+					"type": "subform",
+					"top": 328,
+					"left": 380,
+					"width": 234,
+					"height": 22,
+					"detailForm": "wos_ruler",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_zoom1.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_opacity": {
+					"type": "subform",
+					"top": 397,
+					"left": 380,
+					"width": 264,
+					"height": 62,
+					"detailForm": "wos_opacity",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_opacity.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_opacity1": {
+					"type": "subform",
+					"top": 427,
+					"left": 306,
+					"width": 65,
+					"height": 42,
+					"detailForm": "wos_opacity",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_opacity1.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_zoom2": {
+					"type": "subform",
+					"top": 368,
+					"left": 380,
+					"width": 234,
+					"height": 18,
+					"detailForm": "wos_ruler",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_zoom2.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_opacity2": {
+					"type": "subform",
+					"top": 467,
+					"left": 380,
+					"width": 264,
+					"height": 54,
+					"detailForm": "wos_opacity",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_opacity2.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_fill2": {
+					"type": "subform",
+					"top": 438,
+					"left": 656,
+					"width": 264,
+					"height": 83,
+					"detailForm": "wos_fill",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_fill2.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_fill": {
+					"type": "subform",
+					"top": 218,
+					"left": 656,
+					"width": 214,
+					"height": 80,
+					"sizingY": "move",
+					"detailForm": "wos_fill",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_fill.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_fill1": {
+					"type": "subform",
+					"top": 303,
+					"left": 656,
+					"width": 234,
+					"height": 130,
+					"sizingY": "move",
+					"detailForm": "wos_fill",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_fill1.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_stroke": {
+					"type": "subform",
+					"top": 136,
+					"left": 930,
+					"width": 264,
+					"height": 137,
+					"sizingY": "move",
+					"detailForm": "wos_stroke",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_stroke.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_stroke1": {
+					"type": "subform",
+					"top": 311,
+					"left": 930,
+					"width": 264,
+					"height": 210,
+					"sizingY": "move",
+					"detailForm": "wos_stroke",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_stroke1.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"wos_text": {
+					"type": "subform",
+					"top": 32,
+					"left": 1209,
+					"width": 265,
+					"height": 140,
+					"sizingY": "move",
+					"detailForm": "wos_text",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_text.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange",
+						"onUnload"
+					]
+				},
+				"wos_text1": {
+					"type": "subform",
+					"top": 185,
+					"left": 1209,
+					"width": 220,
+					"height": 88,
+					"detailForm": "wos_text",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_text1.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange",
+						"onUnload"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 225,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

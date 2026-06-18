@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+<file datatype="x-STR#" original="undefined" source-language="en" target-language="es">
+<header>
+<prop-group name="Xliff-Editor.4dbase">
+<prop prop-type="version">1.0</prop>
+</prop-group>
+</header>
+<body>
+<group resname="Menu">
+<trans-unit id="F5D33E48C8D24B53935F908ABF07839E" resname="menu_wos_actions">
+<source>Actions</source>
+<target>Acciones</target>
+</trans-unit>
+<trans-unit id="62898E9360004220BD950EF928477862" resname="menu_wos_editor_demo">
+<source>SVG editor demo</source>
+<target>Demostración del editor SVG</target>
+</trans-unit>
+<trans-unit id="8587A5EF2D534521ACE0BFC9A42CDA4A" resname="menu_wos_widgets_mng">
+<source>Widgets manager</source>
+<target>Gestor de widgets</target>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>

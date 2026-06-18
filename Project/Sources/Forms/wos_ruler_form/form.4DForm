@@ -1,0 +1,86 @@
+{
+	"destination": "detailScreen",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDataChange",
+		"onCloseBox",
+		"onUnload",
+		"onTimer",
+		"onResize",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Invisible Button": {
+					"type": "button",
+					"top": 3,
+					"left": 2,
+					"width": 8,
+					"height": 7,
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"CloseW_Btn": {
+					"type": "button",
+					"top": 0,
+					"left": 0,
+					"width": 5,
+					"height": 5,
+					"action": "cancel",
+					"shortcutKey": "w",
+					"shortcutAccel": true,
+					"display": false
+				},
+				"wos_ruler": {
+					"type": "subform",
+					"top": 0,
+					"left": 0,
+					"width": 367,
+					"height": 60,
+					"sizingY": "grow",
+					"detailForm": "wos_ruler",
+					"focusable": false,
+					"hideFocusRing": true,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_ruler.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 1,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

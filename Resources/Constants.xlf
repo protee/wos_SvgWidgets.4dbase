@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0" xmlns:d4="http://www.4d.com/d4-ns">
+
+  <file datatype="x-4DK#" original="x-undefined" source-language="x-none" target-language="x-none">
+    <header/>
+    <body>
+<!-- themes -->
+      <group resname="themes">
+        <trans-unit id="F4A4235189D24FAB9E8798C7B38DDAA9" resname="F4A4235189D24FAB9E8798C7B38DDAA9" translate="no">
+          <source>Control_Characters</source>
+        </trans-unit>
+
+        <trans-unit id="EC7E493DD53944F9A59506C15E648C95" resname="EC7E493DD53944F9A59506C15E648C95" translate="no">
+          <source>MCSU_CharacterEncoding</source>
+        </trans-unit>
+      </group>
+
+<!-- constants -->
+      <group d4:groupName="F4A4235189D24FAB9E8798C7B38DDAA9" restype="x-4DK#">
+        <trans-unit d4:value="&#x09;:T" id="F4A4235189D24FAB9E8798C7B38DDAA9.1">
+          <source>kTB</source>
+        </trans-unit>
+        <trans-unit d4:value="&#x0A;:T" id="F4A4235189D24FAB9E8798C7B38DDAA9.2">
+          <source>kLF</source>
+        </trans-unit>
+        <trans-unit d4:value="&#x0D;:T" id="F4A4235189D24FAB9E8798C7B38DDAA9.3">
+          <source>kCR</source>
+        </trans-unit>
+        <trans-unit d4:value="&#x20;:T" id="F4A4235189D24FAB9E8798C7B38DDAA9.4">
+          <source>kSP</source>
+        </trans-unit>
+        <trans-unit d4:value="&#x22;:T" id="F4A4235189D24FAB9E8798C7B38DDAA9.5">
+          <source>kQU</source>
+        </trans-unit>
+        <trans-unit d4:value="&#x27;:T" id="F4A4235189D24FAB9E8798C7B38DDAA9.6">
+          <source>kSQ</source>
+        </trans-unit>
+        <trans-unit d4:value="&#x2C;:T" id="F4A4235189D24FAB9E8798C7B38DDAA9.7">
+          <source>kCM</source>
+        </trans-unit>
+        <trans-unit d4:value="&#x7C;:T" id="F4A4235189D24FAB9E8798C7B38DDAA9.8">
+          <source>kVL</source>
+        </trans-unit>
+      </group>
+
+      <group d4:groupName="EC7E493DD53944F9A59506C15E648C95" restype="x-4DK#">
+        <trans-unit d4:value="1017:L" id="EC7E493DD53944F9A59506C15E648C95.1">
+          <source>kMCSU_CharEnc_UTF_32</source>
+        </trans-unit>
+        <trans-unit d4:value="1018:L" id="EC7E493DD53944F9A59506C15E648C95.2">
+          <source>kMCSU_CharEnc_UTF_32BE</source>
+        </trans-unit>
+        <trans-unit d4:value="1019:L" id="EC7E493DD53944F9A59506C15E648C95.3">
+          <source>kMCSU_CharEnc_UTF_32LE</source>
+        </trans-unit>
+        <trans-unit d4:value="1015:L" id="EC7E493DD53944F9A59506C15E648C95.4">
+          <source>kMCSU_CharEnc_UTF_16</source>
+        </trans-unit>
+        <trans-unit d4:value="1013:L" id="EC7E493DD53944F9A59506C15E648C95.5">
+          <source>kMCSU_CharEnc_UTF_16BE</source>
+        </trans-unit>
+        <trans-unit d4:value="1014:L" id="EC7E493DD53944F9A59506C15E648C95.6">
+          <source>kMCSU_CharEnc_UTF_16LE</source>
+        </trans-unit>
+        <trans-unit d4:value="106:L" id="EC7E493DD53944F9A59506C15E648C95.7">
+          <source>kMCSU_CharEnc_UTF_8</source>
+        </trans-unit>
+        <trans-unit d4:value="1012:L" id="EC7E493DD53944F9A59506C15E648C95.8">
+          <source>kMCSU_CharEnc_UTF_7</source>
+        </trans-unit>
+        <trans-unit d4:value="3:L" id="EC7E493DD53944F9A59506C15E648C95.9">
+          <source>kMCSU_CharEnc_ASCII</source>
+        </trans-unit>
+        <trans-unit d4:value="2027:L" id="EC7E493DD53944F9A59506C15E648C95.10">
+          <source>kMCSU_CharEnc_MacRoman</source>
+        </trans-unit>
+        <trans-unit d4:value="2252:L" id="EC7E493DD53944F9A59506C15E648C95.11">
+          <source>kMCSU_CharEnc_Windows_1252</source>
+        </trans-unit>
+        <trans-unit d4:value="4:L" id="EC7E493DD53944F9A59506C15E648C95.12">
+          <source>kMCSU_CharEnc_ISO_8859_1</source>
+        </trans-unit>
+      </group>
+
+    </body>
+  </file>
+
+</xliff>
+

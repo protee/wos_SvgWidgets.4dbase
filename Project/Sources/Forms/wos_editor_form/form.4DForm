@@ -1,0 +1,101 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 10,
+	"bottomMargin": 10,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onCloseBox",
+		"onUnload",
+		"onTimer",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"wos_editor": {
+					"type": "subform",
+					"top": 10,
+					"left": 10,
+					"width": 881,
+					"height": 336,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"detailForm": "wos_editor",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/wos_editor.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onDataChange",
+						"onUnload"
+					]
+				},
+				"btn_cancel": {
+					"type": "pictureButton",
+					"top": 355,
+					"left": 837,
+					"width": 24,
+					"height": 24,
+					"sizingX": "move",
+					"action": "",
+					"rowCount": 4,
+					"picture": "/RESOURCES/btn/btn_cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					],
+					"sizingY": "move"
+				},
+				"btn_accept": {
+					"type": "pictureButton",
+					"top": 355,
+					"left": 861,
+					"width": 24,
+					"height": 24,
+					"sizingX": "move",
+					"rowCount": 4,
+					"picture": "/RESOURCES/btn/btn_accept.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					],
+					"sizingY": "move"
+				}
+			}
+		}
+	],
+	"geometryStamp": 34,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

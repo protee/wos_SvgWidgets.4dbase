@@ -1,0 +1,28 @@
+﻿{
+	"aj_versions": [
+		{
+			"t_version": "21.0.00",
+			"d_date": "2026-06-01",
+			"t_title": "Github release",
+			"t_markdown": "<!--RNH_21.0.00-->\n<h5> <span class=\"badge badge-success\">21.0.00</span> <span class=\"badge badge-info\">Monday 1 June 2026</span> <span class=\"badge badge-light\">Github release</span></h5><!--/RNH_21.0.00-->\n\n\n### Github first release\n\n"
+		},
+		{
+			"t_version": "3.2.00",
+			"d_date": "2026-04-21",
+			"t_title": "Full refactoring",
+			"t_markdown": "<!--RNH_3.2.00-->\n<h5> <span class=\"badge badge-success\">3.2.00</span> <span class=\"badge badge-info\">Tuesday 21 April 2026</span> <span class=\"badge badge-light\">Full refactoring</span></h5><!--/RNH_3.2.00-->\n\n### ![version](./icons/icn_version.png) All widgets are in Classes\n* new technical as Protée's knowledge.\n* All properties with prefix\n* All widgets have all the handlers in they own classes\n* Ready for free distribution\n"
+		},
+		{
+			"t_version": "3.1.01",
+			"d_date": "2026-03-10",
+			"t_title": "Refactoring",
+			"t_markdown": "<!--RNH_3.1.01-->\n***\n<h5> <span class=\"badge badge-success\">3.1.01</span> <span class=\"badge badge-info\">Tuesday 10 March 2026</span> <span class=\"badge badge-light\">Refactoring</span></h5><!--/RNH_3.1.01-->\n\n### ![new](./icons/icn_new.png) WOX Action menu added\n* Allows to get more than one demo panel.\n* Added two demos: wos_widgets_mng, wos_editor_demo\n\n### Localisation startup\n* EN, FR, ES, DE\n\n\n\n"
+		},
+		{
+			"t_version": "2.1.01",
+			"d_date": "2024-12-07",
+			"t_markdown": "<!--RNH_2.1.01-->\n<h5> <span class=\"badge badge-success\">2.1.01</span> <span class=\"badge badge-info\">Saturday 7 December 2024</span> <span class=\"badge badge-light\">wox_Xlibrary</span></h5><!--/RNH_2.1.01-->\n\n## ![version](./icons/icn_version.png) Integration of wox_Xlibrary\n* ![happy](./icons/icn_happy.png) Add the new \"Release notes\" in markdown. Now all releases will be described here!\n",
+			"t_title": "wox_Xlibrary"
+		}
+	]
+}

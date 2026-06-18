@@ -1,0 +1,10 @@
+{
+  "name": "wos_SvgWidgets",
+  "media": "pictures/ogPop.png",
+  "helptip": "wos_SvgWidgets",
+  "handler": "_wos_SvgWidgets",
+  "tools": {
+    "method": "wos_4DPop_v20"
+  }
+}
+

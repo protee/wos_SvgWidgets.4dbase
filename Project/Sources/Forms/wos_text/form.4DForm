@@ -1,0 +1,307 @@
+{
+	"destination": "detailScreen",
+	"shared": true,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onUnload"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"grp": {
+					"type": "groupBox",
+					"top": 0,
+					"left": 0,
+					"width": 265,
+					"height": 135,
+					"text": "Text"
+				},
+				"ot_face": {
+					"type": "text",
+					"top": 19,
+					"left": 10,
+					"width": 40,
+					"height": 14,
+					"class": "Field_Label",
+					"text": "Face:"
+				},
+				"ot_size": {
+					"type": "text",
+					"top": 39,
+					"left": 10,
+					"width": 40,
+					"height": 14,
+					"class": "Field_Label",
+					"text": "Size:"
+				},
+				"ot_style": {
+					"type": "text",
+					"top": 115,
+					"left": 10,
+					"width": 86,
+					"height": 14,
+					"class": "Field_Label",
+					"textAlign": "center",
+					"text": "Style"
+				},
+				"ot_align": {
+					"type": "text",
+					"top": 115,
+					"left": 189,
+					"width": 66,
+					"height": 14,
+					"class": "Field_Label",
+					"textAlign": "center",
+					"text": "Align"
+				},
+				"fontface_PU": {
+					"type": "dropdown",
+					"top": 15,
+					"left": 58,
+					"width": 200,
+					"height": 17,
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 12,
+					"method": "ObjectMethods/fontface_PU.4dm",
+					"events": [
+						"onDataChange"
+					],
+					"focusable": false
+				},
+				"fontsize_PU": {
+					"type": "dropdown",
+					"top": 36,
+					"left": 58,
+					"width": 55,
+					"height": 17,
+					"dataSourceTypeHint": "arrayNumber",
+					"focusable": false,
+					"fontFamily": "Lucida Grande",
+					"fontSize": 10,
+					"method": "ObjectMethods/fontsize_PU.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bold_CB": {
+					"type": "checkbox",
+					"top": 92,
+					"left": 10,
+					"width": 20,
+					"height": 20,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_bold"
+					},
+					"shortcutKey": "b",
+					"shortcutAccel": true,
+					"class": "Field_Label",
+					"focusable": false,
+					"icon": "/RESOURCES/images/fontPicker/bold.png",
+					"iconFrames": 4,
+					"style": "roundedBevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"underline_CB": {
+					"type": "checkbox",
+					"top": 92,
+					"left": 54,
+					"width": 20,
+					"height": 20,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_underline"
+					},
+					"shortcutKey": "u",
+					"shortcutAccel": true,
+					"class": "Field_Label",
+					"focusable": false,
+					"icon": "/RESOURCES/images/fontPicker/underline.png",
+					"iconFrames": 4,
+					"style": "roundedBevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"italic_CB": {
+					"type": "checkbox",
+					"top": 92,
+					"left": 32,
+					"width": 20,
+					"height": 20,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_italic"
+					},
+					"class": "Field_Label",
+					"focusable": false,
+					"icon": "/RESOURCES/images/fontPicker/italic.png",
+					"iconFrames": 4,
+					"style": "roundedBevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"alignLeft_RB": {
+					"type": "radio",
+					"top": 92,
+					"left": 189,
+					"width": 20,
+					"height": 20,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_align_left"
+					},
+					"class": "Field_Label",
+					"focusable": false,
+					"icon": "/RESOURCES/images/fontPicker/align_left.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"radioGroup": "gr_align",
+					"events": [
+						"onClick"
+					]
+				},
+				"alignCenter_RB": {
+					"type": "radio",
+					"top": 92,
+					"left": 212,
+					"width": 20,
+					"height": 20,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_align_center"
+					},
+					"class": "Field_Label",
+					"focusable": false,
+					"icon": "/RESOURCES/images/fontPicker/align_centre.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"radioGroup": "gr_align",
+					"events": [
+						"onClick"
+					]
+				},
+				"alignRight_RB": {
+					"type": "radio",
+					"top": 92,
+					"left": 235,
+					"width": 20,
+					"height": 20,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_align_right"
+					},
+					"class": "Field_Label",
+					"focusable": false,
+					"icon": "/RESOURCES/images/fontPicker/align_right.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"radioGroup": "gr_align",
+					"events": [
+						"onClick"
+					]
+				},
+				"strike_CB": {
+					"type": "checkbox",
+					"top": 92,
+					"left": 76,
+					"width": 20,
+					"height": 20,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_strike"
+					},
+					"class": "Field_Label",
+					"focusable": false,
+					"icon": "/RESOURCES/images/fontPicker/strike.png",
+					"iconFrames": 4,
+					"style": "roundedBevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"woc_colour": {
+					"type": "subform",
+					"top": 36,
+					"left": 119,
+					"width": 137,
+					"height": 17,
+					"detailForm": "woc_colour",
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/woc_colour.4dm",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"ot_opacity": {
+					"type": "text",
+					"top": 58,
+					"left": 10,
+					"width": 48,
+					"height": 14,
+					"class": "Field_Label",
+					"text": "Opacity:"
+				},
+				"opacity_Rlr": {
+					"type": "ruler",
+					"top": 60,
+					"left": 58,
+					"width": 198,
+					"height": 10,
+					"showGraduations": true,
+					"labelsPlacement": "right",
+					"max": 100,
+					"graduationStep": 25,
+					"step": 5,
+					"numberFormat": "### ##0",
+					"focusable": false,
+					"fontFamily": "Lucida Grande",
+					"fontSize": 10,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/pk_opacity"
+					},
+					"method": "ObjectMethods/opacity_Rlr.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				}
+			},
+			"entryOrder": [
+				"fontsize_PU",
+				"woc_colour",
+				"opacity_Rlr",
+				"fontface_PU"
+			]
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 73,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

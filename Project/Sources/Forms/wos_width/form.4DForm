@@ -1,0 +1,70 @@
+{
+	"destination": "detailScreen",
+	"shared": true,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onDoubleClick"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"canvas": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 28,
+					"height": 28,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/pk_width"
+					},
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "truncatedCenter",
+					"dragging": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"ot_label": {
+					"type": "text",
+					"top": 8,
+					"left": 35,
+					"width": 20,
+					"height": 14,
+					"class": "Field_Label",
+					"text": "0"
+				}
+			}
+		}
+	],
+	"geometryStamp": 1,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

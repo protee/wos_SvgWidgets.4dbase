@@ -1,0 +1,87 @@
+{
+	"destination": "detailScreen",
+	"shared": true,
+	"rightMargin": 2,
+	"bottomMargin": 2,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"grp": {
+					"type": "groupBox",
+					"top": 2,
+					"left": 2,
+					"width": 226,
+					"height": 57,
+					"text": "Zoom"
+				},
+				"zoom_Rlr": {
+					"type": "ruler",
+					"top": 24,
+					"left": 54,
+					"width": 162,
+					"height": 10,
+					"showGraduations": true,
+					"labelsPlacement": "right",
+					"min": 50,
+					"max": 300,
+					"graduationStep": 50,
+					"numberFormat": "### ##0",
+					"focusable": false,
+					"fontFamily": "Lucida Grande",
+					"fontSize": 10,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/pk_zoom"
+					},
+					"method": "ObjectMethods/zoom_Rlr.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"canvas": {
+					"type": "input",
+					"top": 20,
+					"left": 10,
+					"width": 32,
+					"height": 32,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/pk_zoom_pop"
+					},
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "proportionalCenter",
+					"dragging": "none",
+					"method": "ObjectMethods/canvas.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			},
+			"entryOrder": [
+				"zoom_Rlr"
+			]
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

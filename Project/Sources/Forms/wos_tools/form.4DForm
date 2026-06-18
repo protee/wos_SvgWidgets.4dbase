@@ -1,0 +1,201 @@
+{
+	"destination": "detailScreen",
+	"shared": true,
+	"rightMargin": 2,
+	"bottomMargin": 2,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onDoubleClick",
+		"onBoundVariableChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"grp": {
+					"type": "groupBox",
+					"top": 2,
+					"left": 2,
+					"width": 266,
+					"height": 57,
+					"text": "Tools"
+				},
+				"SELECT_RB": {
+					"type": "radio",
+					"top": 18,
+					"left": 8,
+					"width": 30,
+					"height": 30,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_select"
+					},
+					"class": "Buttons",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/svg_tools/toolPointer.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					]
+				},
+				"TEXT_RB": {
+					"type": "radio",
+					"top": 18,
+					"left": 40,
+					"width": 30,
+					"height": 30,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_text"
+					},
+					"class": "Buttons",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/svg_tools/toolText.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					]
+				},
+				"LINE_RB": {
+					"type": "radio",
+					"top": 18,
+					"left": 72,
+					"width": 30,
+					"height": 30,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_line"
+					},
+					"class": "Buttons",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/svg_tools/toolLine.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					]
+				},
+				"RECT_RB": {
+					"type": "radio",
+					"top": 18,
+					"left": 104,
+					"width": 30,
+					"height": 30,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_rect"
+					},
+					"class": "Buttons",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/svg_tools/toolRectangle.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					]
+				},
+				"CIRCLE_RB": {
+					"type": "radio",
+					"top": 18,
+					"left": 168,
+					"width": 30,
+					"height": 30,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_ellipse"
+					},
+					"class": "Buttons",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/svg_tools/toolOval.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					]
+				},
+				"FREELINE_RB": {
+					"type": "radio",
+					"top": 18,
+					"left": 200,
+					"width": 30,
+					"height": 30,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_freeline"
+					},
+					"class": "Buttons",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/svg_tools/toolFreeLine.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					]
+				},
+				"ROUND_RB": {
+					"type": "radio",
+					"top": 18,
+					"left": 136,
+					"width": 30,
+					"height": 30,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_round"
+					},
+					"class": "Buttons",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/svg_tools/toolRounded.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					]
+				},
+				"IMG_RB": {
+					"type": "radio",
+					"top": 18,
+					"left": 232,
+					"width": 30,
+					"height": 30,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_picture"
+					},
+					"class": "Buttons",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/svg_tools/toolPicture.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick",
+						"onDoubleClick"
+					]
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 6,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

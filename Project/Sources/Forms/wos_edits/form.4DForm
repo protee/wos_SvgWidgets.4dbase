@@ -1,0 +1,168 @@
+{
+	"destination": "detailScreen",
+	"shared": true,
+	"rightMargin": 2,
+	"bottomMargin": 2,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onDoubleClick",
+		"onBoundVariableChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"grp": {
+					"type": "groupBox",
+					"top": 2,
+					"left": 2,
+					"width": 202,
+					"height": 57,
+					"text": "Edit"
+				},
+				"undo_Btn": {
+					"type": "button",
+					"top": 18,
+					"left": 8,
+					"width": 30,
+					"height": 30,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_undo"
+					},
+					"shortcutKey": "z",
+					"shortcutAccel": true,
+					"class": "Buttons",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/svg_edit/undo_btn.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"redo_Btn": {
+					"type": "button",
+					"top": 18,
+					"left": 40,
+					"width": 30,
+					"height": 30,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_redo"
+					},
+					"shortcutKey": "z",
+					"shortcutAccel": true,
+					"shortcutShift": true,
+					"class": "Buttons",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/svg_edit/redo_btn.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"cut_Btn": {
+					"type": "button",
+					"top": 18,
+					"left": 72,
+					"width": 30,
+					"height": 30,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_cut"
+					},
+					"shortcutKey": "x",
+					"shortcutAccel": true,
+					"class": "Buttons",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/svg_edit/cut_btn.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"copy_Btn": {
+					"type": "button",
+					"top": 18,
+					"left": 104,
+					"width": 30,
+					"height": 30,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_copy"
+					},
+					"shortcutKey": "c",
+					"shortcutAccel": true,
+					"class": "Buttons",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/svg_edit/copy_btn.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"clear_Btn": {
+					"type": "button",
+					"top": 18,
+					"left": 168,
+					"width": 30,
+					"height": 30,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_clearSel"
+					},
+					"shortcutKey": "[Del]",
+					"class": "Buttons",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/svg_edit/clear_btn.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				},
+				"paste_Btn": {
+					"type": "button",
+					"top": 18,
+					"left": 136,
+					"width": 30,
+					"height": 30,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/bt_paste"
+					},
+					"shortcutKey": "v",
+					"shortcutAccel": true,
+					"class": "Buttons",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/svg_edit/paste_btn.png",
+					"iconFrames": 4,
+					"style": "bevel",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

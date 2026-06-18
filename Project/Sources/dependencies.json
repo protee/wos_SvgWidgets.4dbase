@@ -1,0 +1,21 @@
+ {
+	"version": 2100,
+	"dependencies": {
+		"wok_Krolific": {
+			"github": "protee/wok_Krolific",
+			"version": "latest"
+		},
+		"wox_Xlibrary": {
+			"github": "protee/wox_Xlibrary",
+			"version": "latest"
+		},
+		"woc_Colours": {
+			"github": "protee/woc_Colours",
+			"version": "latest"
+		},
+		"4D SVG": {
+			"github": "4d/4D-SVG",
+			"version": "4d"
+		}
+	}
+}

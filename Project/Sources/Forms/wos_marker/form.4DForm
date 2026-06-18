@@ -1,0 +1,53 @@
+{
+	"destination": "detailScreen",
+	"shared": true,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onDoubleClick"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"canvas": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 28,
+					"height": 28,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/pk_marker"
+					},
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "proportionalCenter",
+					"dragging": "none",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

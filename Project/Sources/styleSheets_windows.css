@@ -1,0 +1,26 @@
+.Buttons {
+	font-family: Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.default {
+	font-family: Segoe UI;
+	font-size: 12px;
+}
+
+.Field_Input {
+	font-family: Tahoma;
+	font-size: 11px;
+}
+
+.Field_Label {
+	font-family: Tahoma;
+	font-size: 11px;
+}
+
+.SystemSmall {
+	font-family: Segoe UI;
+	font-size: 10px;
+}
+

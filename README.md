@@ -8,7 +8,7 @@
     <strong style="font-size: 1em;">Tagline:</strong> One SVG, all sizes.
   </div>
   <div>
-    <img src="https://www.protee.org/images/wos_SvgWidgets/wos_SvgWidgets.png" alt="wos_SVGwidgets Logo" width="60" style="border-radius: 12px;">
+    <img src="https://www.protee.org/images/wos_SvgWidgets/wos_SvgWidgets.png" alt="wos_SVGwidgets Logo" width="120" style="border-radius: 12px;">
   </div>
 </div>
 
@@ -16,10 +16,11 @@
 # wos_SvgWidgets
 
 [![4D Component](https://img.shields.io/badge/4D-Component-blue)](#)
+[![4DPop](https://img.shields.io/badge/4D-4DPop-blue)](https://github.com/vdelachaux/4DPop)
 [![License: Commercial](https://img.shields.io/badge/License-Commercial-red.svg)](#license)
 [![Platform: macOS & Windows](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows-lightgrey)](#)
 [![4D v21+](https://img.shields.io/badge/4D-v21%2B-brightgreen)](#)
-
+![Free Source Available](https://img.shields.io/badge/Source-Available-brightgreen)
 </div>
 
 ## Overview
@@ -27,6 +28,8 @@
 wos_SvgWidgets provides a splendid, fully customizable SVG editor component, originally developed for GenieSolutions. Where code meets canvas in perfect harmony, this component allows you to integrate powerful vector drawing capabilities directly into your 4D applications.
 
 All underlying sub-widgets are exposed and available, giving you the flexibility to build your own custom vector drawing tools.
+
+SOURCE available here [**wos_SvgWidgets.4dbase**](https://github.com/protee/wos_SvgWidgets.4dbase)
 
 ---
 
@@ -75,36 +78,30 @@ Starting with 4D v21, the recommended way to install wos_SvgWidgets (and any ogT
 
 ---
 
-## Part of the ogTools Suite
+## ogTools Suite – Dependencies
 
-wos_SvgWidgets is the vector graphics pillar of the comprehensive **ogTools suite** – an integrated development ecosystem for 4D. Other key components include:
+wos_SvgWidgets is the vector graphics pillar of the comprehensive **ogTools suite** – an integrated development ecosystem for 4D. Dependencies:
 
-| Component | Description |
-|-----------|-------------|
-| **wok_Krolific** | Centralized licensing system. |
-| **wox_Xlibrary** | Core utilities for everyday development tasks. |
-| **zen_Nucleus** | The complete ORDA framework binding your database to a sophisticated UI. |
-| **woc_Colours** | Advanced, indexed color management engine. |
-| **waz_Wazar** | Intelligent UI widgets for modern interfaces. |
-| **wor_Recursive** | Manage hierarchical data with ease. |
-| **wob_Boxes** | Secure, Dropbox-like file repository. |
-| **wod_DevTools** | Instant documentation generation. |
-| **wom_Make** | Build and automation toolkit. |
-| **wqr_Quickreport** | ORDA‑friendly reporting. |
-
-> Together, these components form a powerful framework that allows developers to focus on unique business logic rather than reinventing the wheel.
+| Icon | Component | Description |
+|------|-----------|-------------|
+| <img src="https://www.protee.org/images/wok_Krolific/wok_Krolific.png" alt="wok_Krolific Logo" width="60" style="border-radius: 12px;"> | **wok_Krolific** | License manager. |
+| <img src="https://www.protee.org/images/wox_Xlibrary/wox_Xlibrary.png" alt="wox_Xlibrary Logo" width="60" style="border-radius: 12px;"> | **wox_Xlibrary** | Core utilities for everyday development tasks. |
+| <img src="https://www.protee.org/images/woc_Colours/woc_Colours.png" alt="woc_Colours Logo" width="60" style="border-radius: 12px;"> | **woc_Colours** | Advanced, indexed color management engine. |
 
 ---
 
 ## License
 
-wos_SvgWidgets is a **commercial component** and is part of the paid ogTools suite. A valid license is required for use. For licensing options and trial requests, please contact the sales team directly.
+wos_SvgWidgets is a **free component** and is part of the ogTools suite. No valid license is required for use. But the woc_Colours dependency requires a license to get full access.
 
 ---
 
 ## Localization
 
-wos_SvgWidgets is currently localized in **English (EN)**, with **French (FR)** and other languages on demand.
+wos_SvgWidgets supports the following languages out‑of‑the‑box:
+
+- 🇺🇸 English (EN), 🇫🇷 French (FR), 🇪🇸 Spanish (ES), 🇩🇪 German (DE)
+- More on demand
 
 Localization affects error messages, UI prompts, and built-in pane texts.
 
@@ -123,7 +120,7 @@ For direct inquiries:
 
 ## About the Creator
 
-wos_SvgWidgets and the ogTools suite are developed by **Protée sarl**, a company with over 30 years of expertise in 4D development. Led by Olivier Grimbert, the team focuses on delivering high‑quality, production‑grade tools that enhance developer productivity and application reliability.
+wos_SvgWidgets and the ogToolsSuite are developed by **Protée sarl**, a company with over 30 years of expertise in 4D development. Led by Olivier Grimbert, the team focuses on delivering high‑quality, production‑grade tools that enhance developer productivity and application reliability.
 
 ---
 

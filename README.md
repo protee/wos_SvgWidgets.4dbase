@@ -1,27 +1,25 @@
+<!-- Title and badges -->
 <div align="center">
 
-<!-- Header with left text and right logo -->
-<div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
-  <div style="text-align: left;">
-    <strong style="font-size: 1.2em;">Draw your verses</strong><br>
-    <strong style="font-size: 1em;">Mantra:</strong> Pixel-less precision, infinite resolution.<br>
-    <strong style="font-size: 1em;">Tagline:</strong> One SVG, all sizes.
-  </div>
-  <div>
-    <img src="https://www.protee.org/images/wos_SvgWidgets/wos_SvgWidgets.png" alt="wos_SVGwidgets Logo" width="120" style="border-radius: 12px;">
-  </div>
-</div>
-
-<!-- Title and badges -->
 # wos_SvgWidgets
 
 [![4D Component](https://img.shields.io/badge/4D-Component-blue)](#)
-[![4DPop Compatible](https://img.shields.io/badge/4DPop-Compatible-orange)](#)
-[![License: Commercial](https://img.shields.io/badge/License-Commercial-red.svg)](#license)
-[![Platform: macOS & Windows](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows-lightgrey)](#)
 [![4D v21+](https://img.shields.io/badge/4D-v21%2B-brightgreen)](#)
 ![Free Source Available](https://img.shields.io/badge/Source-Available-brightgreen)
+[![4DPop Compatible](https://img.shields.io/badge/4DPop-Compatible-orange)](#)
+[![License: Free](https://img.shields.io/badge/License-Free-brightgreen.svg)](#license)
+[![Platform: macOS & Windows](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows-lightgrey)](#)
 </div>
+
+---
+
+<img src="https://www.protee.org/images/wos_SvgWidgets/wos_SvgWidgets.png" alt="wos_SvgWidgets Logo" width="120" align="right">
+
+<strong style="font-size:1.2em">Draw your verses</strong><br>
+<strong>Mantra:</strong> Pixel-less precision, infinite resolution.<br>
+<strong>Tagline:</strong> One SVG, all sizes.
+
+<br clear="both">
 
 ## Overview
 

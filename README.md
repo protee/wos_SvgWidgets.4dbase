@@ -16,7 +16,7 @@
 # wos_SvgWidgets
 
 [![4D Component](https://img.shields.io/badge/4D-Component-blue)](#)
-[![4DPop](https://img.shields.io/badge/4D-4DPop-blue)](https://github.com/vdelachaux/4DPop)
+[![4DPop Compatible](https://img.shields.io/badge/4DPop-Compatible-orange)](#)
 [![License: Commercial](https://img.shields.io/badge/License-Commercial-red.svg)](#license)
 [![Platform: macOS & Windows](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows-lightgrey)](#)
 [![4D v21+](https://img.shields.io/badge/4D-v21%2B-brightgreen)](#)
@@ -40,6 +40,7 @@ SOURCE available here [**wos_SvgWidgets.4dbase**](https://github.com/protee/wos_
 - **Specialized Signing Mode**: A unique option allows you to "stick" or lock the selected drawing tool, creating dedicated zones for handwritten signatures and effectively turning the editor into a signing pad.
 - **Exposed Sub-Widgets**: All underlying sub-widgets are available, enabling you to assemble your own custom vector drawing tools.
 - **Multi-Language Support**: Localized in **English (EN)**, with **French (FR)** and other languages coming soon.
+- **4DPop toolbar Compatible**. It includes a 4DPop.json manifest for easy integration.
 
 ### Current Limitation
 Please note that the SVGpath element is not currently supported for editing within the widget.
@@ -63,7 +64,8 @@ Starting with 4D v21, the recommended way to install wos_SvgWidgets (and any ogT
 2. Click the `+` button and select **Add a dependency from a Git URL**.
 3. Enter the following Git URL:`protee/wos_SvgWidgets`
 4. Choose the desired version (e.g., `main`, `latest`, or a specific release tag).
-5. Confirm the installation – the component will be automatically fetched from GitHub, placed in the `Components` folder, and linked to your project.
+5. Confirm the installation – the component will be automatically fetched from GitHub, and linked to your project.
+6. Don't forget to open your database structure settings dialog and go to the Security page to enable, if necessary, the Execute the "On host database event" method of the component option. This ensure your component is well initialised automatically.
 
 > **Note**: For team development, commit the dependency configuration file (`dependencies.json`) to your source control so all team members automatically fetch the same version from GitHub.
 
@@ -113,8 +115,7 @@ Localization affects error messages, UI prompts, and built-in pane texts.
 - **Documentation**: Full documentation and HDI (Host Database Interface) demos are included with your purchase.
 
 For direct inquiries:
-- **Email**: [og@protee.org](mailto:og@protee.org)
-- **Phone**: +33 6 3718 5941
+- **Email**: [info@protee.org](mailto:info@protee.org)
 
 ---
 

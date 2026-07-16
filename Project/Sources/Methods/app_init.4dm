@@ -24,7 +24,7 @@ Use ($vJ_prefs)
 	$vJ_prefs.t_version:="21.0.00"
 	// For wom_Krolific only ↴
 	$vJ_prefs.fo_rsc:=Folder:C1567(fk resources folder:K87:11)
-	$vJ_prefs.is_free:=True:C214
+	$vJ_prefs.is_free:=True:C214  // Always displays "licensed" in wok_Krolific
 	
 	//$vJ_prefs.cs_wox_menu:=cs._wox_menu
 	$cs__wox_menu:=cs:C1710._wox_menu.new()  // A "kind" of singleton !!
